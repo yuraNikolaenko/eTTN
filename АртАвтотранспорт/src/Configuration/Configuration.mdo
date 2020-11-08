@@ -44,5 +44,6 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.МоделиТС</catalogs>
   <catalogs>Catalog.МаркиТС</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
   <documents>Document.ПутевойЛист</documents>
 </mdclass:Configuration>

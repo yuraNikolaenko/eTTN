@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c76478f-a240-4f78-82db-461404ff13a8">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c76478f-a240-4f78-82db-461404ff13a8">
   <producedTypes>
     <objectType typeId="6b1f776f-eb05-4142-8ad5-6fd35e653eee" valueTypeId="9445b7c4-4141-4483-8271-b7e5e64fe279"/>
     <refType typeId="15535142-cced-4c37-b44b-87ae5dd56afe" valueTypeId="769aff2f-3648-48d9-8173-577b289b897f"/>
@@ -39,6 +39,38 @@
     <type>
       <types>CatalogRef.МоделиТС</types>
     </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7f883260-06d4-47fc-b230-58e0d3e2608a">
+    <name>Марка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МаркиТС</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="42312881-4c7b-4113-9448-0f52f7045f58">
+    <name>ГосударственныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Государственный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:core="http://g5.1c.ru/v8/dt/mcore"
+	xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="13f9d651-5389-4674-ab23-af6f3abad5a5">
+	<producedTypes>
+		<objectType typeId="78a89a95-5db6-47a8-b418-f9e31eae0324"
+			valueTypeId="ef44dd1a-03b8-4448-a46c-c75e5912b90f" />
+		<refType typeId="e43eeb99-0596-4898-a82b-47051a422520"
+			valueTypeId="13009b5b-0f8e-481e-9844-eb48e842ba59" />
+		<selectionType
+			typeId="66124113-6566-4184-b262-53e6a3410f93"
+			valueTypeId="a3810c28-b488-41c0-be9d-66756cbba33e" />
+		<listType typeId="36a63162-de23-484c-8b50-48615d45e451"
+			valueTypeId="2c8b142f-3db4-4fcf-8968-7a95dbce6f24" />
+		<managerType typeId="d02ebed6-bd52-49dd-a99c-254ec3159f79"
+			valueTypeId="3366045b-6ee8-4980-a96c-0ca6c9623839" />
+	</producedTypes>
+	<name>еТТН</name>
+	<synonym>
+		<key>ru</key>
+		<value>еТТН</value>
+	</synonym>
+	<useStandardCommands>true</useStandardCommands>
+	<inputByString>Document.еТТН.StandardAttribute.Number</inputByString>
+	<fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+	<createOnInput>Use</createOnInput>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<fullTextSearch>Use</fullTextSearch>
+	<numberType>String</numberType>
+	<numberLength>9</numberLength>
+	<numberAllowedLength>Variable</numberAllowedLength>
+	<checkUnique>true</checkUnique>
+	<autonumbering>true</autonumbering>
+	<postInPrivilegedMode>true</postInPrivilegedMode>
+	<unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+	<attributes uuid="65ca50e7-5085-4aff-9597-92a18f6a4a53">
+		<name>ДатаТТН</name>
+		<synonym>
+			<key>ru</key>
+			<value>Дата ТТН</value>
+		</synonym>
+		<type>
+			<types>Date</types>
+			<dateQualifiers>
+				<dateFractions>Date</dateFractions>
+			</dateQualifiers>
+		</type>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<attributes uuid="97fcd1d2-c46a-43fb-ac2b-620ea8a77cc6">
+		<name>НомерТТН</name>
+		<synonym>
+			<key>ru</key>
+			<value>Номер ТТН</value>
+		</synonym>
+		<type>
+			<types>String</types>
+			<stringQualifiers>
+				<length>10</length>
+			</stringQualifiers>
+		</type>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fillValue xsi:type="core:StringValue">
+			<value></value>
+		</fillValue>
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+</mdclass:Document>
