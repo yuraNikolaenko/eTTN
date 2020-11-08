@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="044a9990-b9b6-4b77-bab8-8634b9e02cec">
+  <producedTypes>
+    <objectType typeId="eed799ad-b9a6-40fe-b387-24f3efdd4e23" valueTypeId="557c3247-b7ff-434e-8dfe-19d93fb79151"/>
+    <refType typeId="805b00a8-597d-413a-9031-348bfb2124a7" valueTypeId="46a4fcde-b3b1-457a-9e6d-f7d498fd02fc"/>
+    <selectionType typeId="a484bfb7-5588-4a6e-ae2a-acda67145748" valueTypeId="16b8e1fa-eb10-4f35-80cc-e3b7cac25696"/>
+    <listType typeId="8f837af2-c9c3-4fbd-a420-a47ff9ed0e19" valueTypeId="cc9b4dd9-b51b-42ea-b419-39346189f773"/>
+    <managerType typeId="e1e19a31-c926-430d-8250-71af53c816c9" valueTypeId="ea4f591c-16f7-45ad-aa2f-c504c4c474e6"/>
+  </producedTypes>
+  <name>ПутевойЛист</name>
+  <synonym>
+    <key>ru</key>
+    <value>Путевой лист</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПутевойЛист.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="6c1a63f3-6a93-4fd4-834b-f29afc3d6fd1">
+    <name>ТранспортноеСредство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортное средство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТранспортныеСредства</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="924f87ac-fac2-4beb-9131-baa10eca5cd2">
+    <producedTypes>
+      <objectType typeId="d5d06a2a-b856-4efd-ac79-23b5e9fe45c7" valueTypeId="ca4b9aae-6cb4-4268-b59c-741a32f8dbe1"/>
+      <rowType typeId="e7b4b71d-9d4b-459e-a81f-46bec67b1a6d" valueTypeId="67314f74-c43d-4a10-a497-cbc70b3ae28f"/>
+    </producedTypes>
+    <name>ТТН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТТН</value>
+    </synonym>
+    <attributes uuid="6bd90fcb-e327-4a7a-8bed-686b2449cc49">
+      <name>Номер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5b304ce5-5ef9-4d64-bb38-b86dddb30bd8">
+      <name>Дата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="93374c73-ed7b-46f8-8ea8-c212cddb8b1f">
+      <name>Груз</name>
+      <synonym>
+        <key>ru</key>
+        <value>Груз</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d0e18e1d-db5a-41c8-bfa4-dbe0dd571d50">
+      <name>ПунктПогрузки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пункт погрузки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="09d783ec-69df-4884-81c4-f53188089ff3">
+      <name>ПунктРазгрузки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пункт разгрузки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

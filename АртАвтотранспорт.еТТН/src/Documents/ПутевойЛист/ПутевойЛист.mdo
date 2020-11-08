@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d5ad8d7f-91e7-4a41-99ed-8dab35c18aed" extendedConfigurationObject="044a9990-b9b6-4b77-bab8-8634b9e02cec">
+  <producedTypes>
+    <objectType typeId="a0c935e7-0a6c-46f8-99e1-661910f58049" valueTypeId="78cc15c1-8742-440f-a588-f407a325bfb7"/>
+    <refType typeId="cb692278-8282-42be-8c0b-5473e5de9bcf" valueTypeId="c3f53262-dd15-4904-9169-ef0a1d1527ef"/>
+    <selectionType typeId="81e982c2-c697-4865-8839-501831f7f994" valueTypeId="5036b2b4-b534-48d8-8d58-64ff3866b6a8"/>
+    <listType typeId="7b134d9d-a76f-4a09-948a-c97137e710d1" valueTypeId="ec677564-578c-482a-8480-6816ecdb38c3"/>
+    <managerType typeId="8c2e081d-1d96-41f4-b8a7-f441d6606d82" valueTypeId="dc024b87-25f5-45ec-8675-5d1249977320"/>
+  </producedTypes>
+  <name>ПутевойЛист</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <tabularSections uuid="d0fa2bbc-5ab5-4295-af52-9725cbca9165" extendedConfigurationObject="924f87ac-fac2-4beb-9131-baa10eca5cd2">
+    <producedTypes>
+      <objectType typeId="9fc3ef83-f4e8-4fc2-aa34-e2958ebc2c8f" valueTypeId="e826afa6-3e80-4b92-ac22-14dcef35f0c1"/>
+      <rowType typeId="048afcfd-4dfc-41d7-be16-5c2446b3dda6" valueTypeId="ed4abc49-00fd-4f13-b91d-a811d93fde3f"/>
+    </producedTypes>
+    <name>ТТН</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="e90a8326-c0cd-4e28-8d22-c92ecc85e19c">
+      <name>Расш1_еТТН</name>
+      <synonym>
+        <key>ru</key>
+        <value>еТТН</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.Расш1_еТТН</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

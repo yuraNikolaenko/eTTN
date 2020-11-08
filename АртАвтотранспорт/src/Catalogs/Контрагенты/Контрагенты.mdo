@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc46848a-4c13-4ebb-bc41-d5643e884776">
+  <producedTypes>
+    <objectType typeId="a7c536e5-f8f7-47de-b8c6-6c2a3721250f" valueTypeId="eec87195-3c26-4bdf-8ec0-dba0d168524f"/>
+    <refType typeId="a1eed61b-8c36-4a72-b61d-4c6dc20f2063" valueTypeId="84c1e039-a924-4a2b-8e1e-5dcf6b253a61"/>
+    <selectionType typeId="8dc42fd6-e19e-42d8-91be-e87a1418b741" valueTypeId="f7865d6c-ca97-41c6-94b0-1af816d55d36"/>
+    <listType typeId="edb3ab92-d6a3-4d74-ba69-d11a2688aa98" valueTypeId="32f5d8da-181d-46eb-b1b8-8dc0c1daf32a"/>
+    <managerType typeId="82e21b02-bfa4-4c4b-8232-58ee1e12881a" valueTypeId="f656694a-fa78-4614-956e-5bcc8fd98049"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="1c4f5767-0e75-4530-aaeb-a1f89c75724c">
+    <name>КодПоЕДРПОУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код по ЕДРПОУ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4cae173f-276b-4195-9e15-074ca31b654d">
+    <name>ИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

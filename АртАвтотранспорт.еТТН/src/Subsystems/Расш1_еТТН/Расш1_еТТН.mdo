@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84e9a40c-34e3-464a-abdf-c04719319062">
+  <name>Расш1_еТТН</name>
+  <synonym>
+    <key>ru</key>
+    <value>еТТН</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Расш1_еТТН</picture>
+  </picture>
+  <content>Document.Расш1_еТТН</content>
+  <content>Catalog.Расш1_ТипТТН</content>
+</mdclass:Subsystem>

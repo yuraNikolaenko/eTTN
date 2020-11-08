@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0fe776b-54ea-4101-b4fa-2d3065811884">
+  <producedTypes>
+    <refType typeId="44159fd5-5856-4575-a676-bdc1465d4c31" valueTypeId="cb92bc96-b9c7-4b2a-b1d5-534144ed9f63"/>
+    <listType typeId="22bcecc0-1cba-4c6d-8af3-530fb321a688" valueTypeId="48830e57-dff7-4520-aa8b-b4db9505f3bb"/>
+    <managerType typeId="25e246e7-1d00-4321-a3e2-a35ac1e633cd" valueTypeId="accc3357-072d-46ff-b73f-6e5e1d0f0471"/>
+  </producedTypes>
+  <name>ТипТТН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип ТТН</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="42f130f7-1b15-4d4c-afa1-c9d9457bd21e">
+    <name>generic</name>
+    <synonym>
+      <key>ru</key>
+      <value>Generic</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3742ef44-5026-441b-ab30-77b62ab9ff6e">
+    <name>milk</name>
+    <synonym>
+      <key>ru</key>
+      <value>Milk</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
