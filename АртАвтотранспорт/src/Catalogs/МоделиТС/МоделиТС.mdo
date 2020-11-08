@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fce5b71-c607-459b-9de9-53ac313fc67a">
+  <producedTypes>
+    <objectType typeId="02fd5a68-242b-49cd-b6e9-f69692b86e4d" valueTypeId="d3e9afef-e7d1-4cb7-975c-5461bab74257"/>
+    <refType typeId="98263073-338e-40fb-84e3-feca599e8ccb" valueTypeId="5c6b9181-b27d-401e-857f-41f8136aa131"/>
+    <selectionType typeId="eaf2eebd-3f59-4d51-a1e8-a6dbee5d7430" valueTypeId="5b7317f7-770e-4143-8d73-d9569af38763"/>
+    <listType typeId="7f088a58-d43d-469c-a2c2-d2790a9cd399" valueTypeId="df78de97-957e-42f5-becf-8753d947d333"/>
+    <managerType typeId="23066184-1796-47ff-8023-0e7e88f41ddb" valueTypeId="f657ae95-7887-4e66-9ae2-be9812fe55b1"/>
+  </producedTypes>
+  <name>МоделиТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модели ТС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МоделиТС.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.МоделиТС.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

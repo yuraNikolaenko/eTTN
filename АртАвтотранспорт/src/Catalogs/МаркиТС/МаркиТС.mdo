@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40b91f39-9f84-4f5f-b2e5-e53a432c4a50">
+  <producedTypes>
+    <objectType typeId="7fbc0f03-9fae-4e5e-b2bc-2eb1c6250ae3" valueTypeId="82087d92-607c-4c1f-8558-609e4697b845"/>
+    <refType typeId="9809263e-7d66-41af-adb7-52074bbae456" valueTypeId="fc2ea111-9607-4280-bb1c-0c2e862f8a67"/>
+    <selectionType typeId="60586649-0db5-49a3-99f2-f4ec3b450f80" valueTypeId="56011429-5d88-4d2e-9dbf-5eb6ebd919a5"/>
+    <listType typeId="1a1d0ccb-6939-44f9-a2af-2e9b709da530" valueTypeId="03dcec81-6806-41e2-96a8-593a7228398d"/>
+    <managerType typeId="fd96be68-711e-4705-bb42-a339a4d62876" valueTypeId="9627936c-5fd5-4c04-a49f-150652ee0601"/>
+  </producedTypes>
+  <name>МаркиТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Марки ТС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МаркиТС.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.МаркиТС.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

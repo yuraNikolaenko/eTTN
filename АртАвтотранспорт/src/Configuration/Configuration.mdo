@@ -42,5 +42,7 @@
   <catalogs>Catalog.ТранспортныеСредства</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.МоделиТС</catalogs>
+  <catalogs>Catalog.МаркиТС</catalogs>
   <documents>Document.ПутевойЛист</documents>
 </mdclass:Configuration>
